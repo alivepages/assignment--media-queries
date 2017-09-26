@@ -197,6 +197,12 @@ h4 {
   margin-left: 5px;
   color: red; }
 
+.container {
+  width: 330px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap; }
+
 @media screen and (min-width: 500px) {
   img {
     width: 300px; }
@@ -210,5 +216,11 @@ h4 {
 
   h4 {
     color: green; } }
+@media screen and (min-width: 600px) and (max-width: 900px) {
+  .container {
+    width: 100%; } }
+@media screen and (min-width: 900px) {
+  .container {
+    width: 1024px; } }
 
 /*# sourceMappingURL=styles.css.map */
